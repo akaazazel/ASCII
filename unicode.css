@@ -158,22 +158,18 @@ header{
 
 .social-list{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 100px);
   gap: 25px;
 }
 
-.social-one{
+.social-one a{
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.social-one a{
-  color: white;
+.social-one a p{
+  margin-top: 10px;
 }
-
-.social-one img{
-  margin-right: 16px;
-}
-
