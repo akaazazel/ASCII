@@ -164,7 +164,9 @@ header{
 
 .social-one{
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .social-one a{
