@@ -167,6 +167,10 @@ header{
   align-items: center;
 }
 
+.social-one a{
+  color: white;
+}
+
 .social-one img{
   margin-right: 16px;
 }
