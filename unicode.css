@@ -90,6 +90,11 @@ header{
   font-size: 32px;
 }
 
+.sub-name{
+  color: rgb(130, 130, 130);
+  font-size: 14px;
+}
+
 #about p{
   font-size: 20px;
 }
