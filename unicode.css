@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "JetBrains Mono", monospace;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  transition: 0.25s;
+}
+
+:root {
+  --background-color: #f8f8f8;
+  --primary-color: #1a1a1a;
+  --accent-color: rgb(78, 190, 85);
+}
+
+::selection {
+  background-color: var(--accent-color); /* Orange background */
+  color: #fff; /* White text color */
+}
+
+img {
+  user-select: none;
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+h2{
+  font-size: 30px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: var(--background-color);
+  padding: 0 50px 0 50px;
+  z-index: 1000;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+  margin-left: 25px;
+}
+
+.navbar ul li a{
+  color: var(--primary-color);
+}
+
+.content{
+  margin: 0 400px 0 400px;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*border-right: solid 1px;
+  border-left: solid 1px;*/
+  padding: 0 10px 0 10px;
+}
+
+.container h2{
+  margin-bottom: 25px;
+}
+
+#home h1{
+  font-size: 175px;
+  cursor: pointer;
+}
+
+#home h1:hover{
+  font-size: 180px;
+  color: var(--accent-color);
+}
+
+#home p{
+  font-size: 32px;
+}
+
+#about p{
+  font-size: 20px;
+}
+
+.member-list{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.member-one{
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.member-one:hover{
+  opacity: 0.7;
+}
+
+.member-one img{
+  width: 80px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+#gallery{
+  margin: 250px 0 250px 0;
+}
+
+.gallery-box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.img-box1{
+  width: 200px;
+  height: 200px;
+}
+
+.img-box1:hover{
+  opacity: 0.7;
+}
+
+.img-box1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
+
+#socials{
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.social-one img{
+  width: 50px;
+}
+
+.social-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.social-one{
+  display: flex;
+  align-items: center;
+}
+
+.social-one img{
+  margin-right: 16px;
+}
+
