@@ -29,6 +29,11 @@ body{
 
 h2{
   font-size: 30px;
+  cursor: pointer;
+}
+
+h2:hover{
+  color: var(--accent-color);
 }
 
 header{
@@ -155,6 +160,10 @@ header{
 #socials{
   background-color: var(--primary-color);
   color: var(--background-color);
+}
+
+.social-one img:hover{
+  filter: invert();
 }
 
 .social-one img{
